@@ -11,7 +11,7 @@ const Createtable = ({columns,data}) => {
     }=useTable({columns,data})
   return (
     <table  {...getTableProps()}>
-      <thead >
+      <thead > 
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
             {headerGroup.headers.map(column => (

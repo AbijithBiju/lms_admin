@@ -8,7 +8,7 @@ function App() {
         {/* attendence */}
         <Heading heading="Attendence"/>
         <Table/>
-      </div>
+      </div> 
       <div className="w-2/5 flex flex-col px-3 h-full">
         <div className="w-full mb-3 rounded-md bg-white h-1/2">
           {/* power */}
